@@ -8,7 +8,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 port_stem = PorterStemmer()
 import time
 from googletrans import Translator
-nltk.download('stopwords') 
 
 vector = pickle.load(open('vector.pkl', 'rb'))
 load_model = pickle.load(open('model.pkl', 'rb'))
